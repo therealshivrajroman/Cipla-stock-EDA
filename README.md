@@ -1,1 +1,40 @@
-# Cipla-stock-EDA
+# Cipla Stock Analysis
+
+This project analyzes **Cipla's stock data** using PySpark , Matplotlib and PowerBi to extract meaningful insights about the stock's performance and trends.
+
+## Project Overview
+
+The primary objective of this analysis is to process, analyze, and visualize Cipla stock data to uncover patterns and insights that can aid in decision-making.
+
+### Tools and Technologies
+- **PySpark**: For big data processing and analysis.
+- **Matplotlib**: For creating visualizations to better understand the data.
+- **Pandas**: To handle tabular data operations.
+
+---
+
+## Key Steps in the Analysis
+
+1. **Data Ingestion**:
+   - Read the stock data from a CSV file using PySpark's `read` functionality.
+   - Schema inference for column types.
+
+2. **Data Cleaning and Preparation**:
+   - Convert string columns to appropriate date and numeric types.
+   - Handle missing or inconsistent data.
+
+3. **Data Analysis**:
+   - Analyze key metrics like opening and closing prices, daily highs and lows.
+   - Calculate trends such as moving averages or lagged differences using PySpark's window functions.
+
+4. **Visualizations**:
+   - Plot stock trends over time using Matplotlib to visualize:
+     - Price changes.
+     - Volume trends.
+     - Other patterns of interest.
+
+  ## Dashboard Analysis
+![image](https://github.com/user-attachments/assets/d24605dc-68c2-48f4-8753-1bc0d413f506)
+
+
+
